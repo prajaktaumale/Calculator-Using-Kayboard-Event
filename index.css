@@ -1,0 +1,69 @@
+body {
+    background-color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  #calci {
+    background-color: blanchedalmond;
+  
+    width: 40vw;
+    height: 60vh;
+    margin: 7% 30%;
+  }
+  
+  #result {
+    width: 100%;
+    height: 30%;
+    /* background-color: thistle; */
+  }
+  
+  #inputs {
+    height: 70%;
+    background-color: teal;
+  }
+  
+  .operator-box,
+  .num {
+    margin: 0%;
+    float: left;
+    height: 22%;
+    width: 25%;
+    border-radius: 10%;
+    cursor: pointer;
+  }
+  
+  .operator-color {
+    background-color: #2daf76;
+  }
+  
+  .num {
+    background-color: seashell;
+  }
+  
+  #empty {
+    background-color: teal;
+    cursor: default;
+  }
+  
+  #history p {
+    text-align: right;
+    /* font-size: 18%; */
+  }
+  
+  #output h4 {
+    text-align: right;
+    /* font-size: 25%; */
+    margin-block-start: 1em;
+  }
+  
+  #history {
+    width: 100%;
+    height: 30%;
+  }
+  
+  /* #outer-container p {
+    font-size: 0.2em; 
+     text-align: center;
+    background-color: #00ff47;
+  } */
